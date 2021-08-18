@@ -94,7 +94,7 @@ img {
 .buttons a button {
     width: 100px;
     height: 35px;
-    font-family: 'Zen Loop', cursive;
+    font-family: var(--primary-font);
     font-size: 18px;
     background: var(--primary-color);
     color: #fff;
@@ -102,6 +102,8 @@ img {
     cursor: pointer;
     letter-spacing: 1.5px;
     padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     outline: none;
 }
 
